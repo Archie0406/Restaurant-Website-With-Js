@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/7a4b62b0a4.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div class="navigation container">
+        <div class="logo_container">
+          <img src="logo.jpg" alt="logo" />
+        </div>
+        
+        <div class="menu_items">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Order Now</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="bar_icon">
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero container">
+      <div class="hero_image">
+        <img src="hero.jpg" alt="hero image" />
+      </div>
+      <div class="hero_content">
+        <h1>Delicious Ice Cream for Every Mood</h1>
+        <p>Indulge in the Sweetness</p>
+        <button class="explore_btn"><a href="#explore">Explore Now</a> </button>
+      </div>
+    </div>
+
+    <!-- Features Section -->
+    <div class="features container">
+      <div class="feature-container">
+        <div class="feature">
+          <img src="pre.jpg" alt="PREMIUM QUALITY" />
+          <h3>PREMIUM QUALITY</h3>
+          <p>Grab the finest flavors, where every bite speaks of premium quality!</p>
+        </div>
+      </div>
+      <div class="feature-container">
+        <div class="feature">
+          <img src="var.jpg" alt="WIDE VARIETY" />
+          <h3>WIDE VARIETY</h3>
+          <p>Explore a world of indulgence with our wide variety of irresistibly delicious ice creams!</p>
+        </div>
+      </div>
+      <div class="feature-container">
+        <div class="feature">
+          <img src="del.jpg" alt="Delivery" />
+          <h3>HOME DELIVERY</h3>
+          <p>Enjoy fast and reliable delivery to your doorstep!</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Menu Section -->
+    <div class="menu container" id="explore">
+      <h2>Explore Our Flavors</h2>
+      <div class="flash-cards-container">
+        <div class="flash-card" data-category="Classic Flavors">
+          <img src="classic.jpg" alt="Classic Flavors" class="flash-card-img">
+          <h3>Classic Flavors</h3>
+        </div>
+        <div class="flash-card" data-category="Fruit-Based Flavors">
+          <img src="mango.jpg" alt="Fruit-Based Flavors" class="flash-card-img">
+          <h3>Fruit-Based Flavors</h3>
+        </div>
+        <div class="flash-card" data-category="Chocolate-Based Variants">
+          <img src="dark choco.jpg" alt="Chocolate-Based Flavors" class="flash-card-img">
+          <h3>Chocolate-Based Flavors</h3>
+        </div>
+      </div>
+        <!-- Classic Flavors -->
+        <div class="item">
+          <div class="flavor-category">
+            <h3>Classic Flavors</h3>
+            <div class="flavor-grid">
+                <div class="flavor-card" data-flavor="Vanilla">
+                  <img src="vanilla.jpg" alt="Vanilla" class="menu_image">
+                  <div class="flavor-info">
+                    <h4 class="flavor-title">Vanilla</h4>
+                    <span class="flavor-badge" style="display:none;">Flavor of the Day!</span>
+                    <p class="flavor-desc">Classic creamy vanilla ice cream made with real vanilla beans.</p>
+                    <div class="flavor-bottom">
+                      <button type="button" class="order-btn"><i class="fas fa-shopping-cart"></i> Order Now</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="flavor-card" data-flavor="Chocolate">
+                  <img src="choco.jpg" alt="Chocolate" class="menu_image">
+                  <div class="flavor-info">
+                    <h4 class="flavor-title">Chocolate</h4>
+                    <span class="flavor-badge" style="display:none;">Flavor of the Day!</span>
+                    <p class="flavor-desc">Rich chocolate ice cream for true chocolate lovers.</p>
+                    <div class="flavor-bottom">
+                      <button type="button" class="order-btn"><i class="fas fa-shopping-cart"></i> Order Now</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="flavor-card" data-flavor="Strawberry">
+                  <img src="strawberry.jpg" alt="Strawberry" class="menu_image">
+                  <div class="flavor-info">
+                    <h4 class="flavor-title">Strawberry</h4>
+                    <span class="flavor-badge" style="display:none;">Flavor of the Day!</span>
+                    <p class="flavor-desc">Fresh strawberry ice cream with real fruit pieces.</p>
+                    <div class="flavor-bottom">
+                      <button type="button" class="order-btn"><i class="fas fa-shopping-cart"></i> Order Now</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="flavor-card" data-flavor="Butterscotch">
+                  <img src="butterscotch.jpg" alt="Butterscotch" class="menu_image">
+                  <div class="flavor-info">
+                    <h4 class="flavor-title">Butterscotch</h4>
+                    <span class="flavor-badge" style="display:none;">Flavor of the Day!</span>
+                    <p class="flavor-desc">Crunchy butterscotch bits in creamy ice cream.</p>
+                    <div class="flavor-bottom">
+                      <button type="button" class="order-btn"><i class="fas fa-shopping-cart"></i> Order Now</button>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Fruit-Based Flavors -->
+        <div class="flavor-category">
+            <h3>Fruit-Based Flavors</h3>
+            <div class="flavor-grid">
+                <div class="flavor-card" data-flavor="Mango">
+                  <img src="mango.jpg" alt="Mango" class="menu_image">
+                  <div class="flavor-info">
+                    <h4 class="flavor-title">Mango</h4>
+                    <span class="flavor-badge" style="display:none;">Flavor of the Day!</span>
+                    <p class="flavor-desc">Tropical mango ice cream with a juicy twist.</p>
+                    <div class="flavor-bottom">
+                      <button type="button" class="order-btn"><i class="fas fa-shopping-cart"></i> Order Now</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="flavor-card" data-flavor="Tender Coconut">
+                  <img src="coconut.jpg" alt="Tender Coconut" class="menu_image">
+                  <div class="flavor-info">
+                    <h4 class="flavor-title">Tender Coconut</h4>
+                    <span class="flavor-badge" style="display:none;">Flavor of the Day!</span>
+                    <p class="flavor-desc">Refreshing coconut ice cream with real coconut bits.</p>
+                    <div class="flavor-bottom">
+                      <button type="button" class="order-btn"><i class="fas fa-shopping-cart"></i> Order Now</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="flavor-card" data-flavor="Guava">
+                  <img src="guava.webp" alt="Guava" class="menu_image">
+                  <div class="flavor-info">
+                    <h4 class="flavor-title">Guava</h4>
+                    <span class="flavor-badge" style="display:none;">Flavor of the Day!</span>
+                    <p class="flavor-desc">Exotic guava ice cream with a tangy kick.</p>
+                    <div class="flavor-bottom">
+                      <button type="button" class="order-btn"><i class="fas fa-shopping-cart"></i> Order Now</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="flavor-card" data-flavor="Lychee">
+                  <img src="lychee.jpg" alt="Lychee" class="menu_image">
+                  <div class="flavor-info">
+                    <h4 class="flavor-title">Lychee</h4>
+                    <span class="flavor-badge" style="display:none;">Flavor of the Day!</span>
+                    <p class="flavor-desc">Sweet and juicy lychee ice cream for fruit lovers.</p>
+                    <div class="flavor-bottom">
+                      <button type="button" class="order-btn"><i class="fas fa-shopping-cart"></i> Order Now</button>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Chocolate-Based Variants -->
+        <div class="flavor-category">
+            <h3>Chocolate-Based Variants</h3>
+            <div class="flavor-grid">
+                <div class="flavor-card" data-flavor="Dark Chocolate">
+                  <img src="dark choco.jpg" alt="Dark Chocolate" class="menu_image">
+                  <div class="flavor-info">
+                    <h4 class="flavor-title">Dark Chocolate</h4>
+                    <span class="flavor-badge" style="display:none;">Flavor of the Day!</span>
+                    <p class="flavor-desc">Intense dark chocolate ice cream for a rich experience.</p>
+                    <div class="flavor-bottom">
+                      <button type="button" class="order-btn"><i class="fas fa-shopping-cart"></i> Order Now</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="flavor-card" data-flavor="Belgium Chocolate">
+                  <img src="belgium choco.jpg" alt="Belgium Chocolate" class="menu_image">
+                  <div class="flavor-info">
+                    <h4 class="flavor-title">Belgium Chocolate</h4>
+                    <span class="flavor-badge" style="display:none;">Flavor of the Day!</span>
+                    <p class="flavor-desc">Smooth Belgian chocolate ice cream, creamy and decadent.</p>
+                    <div class="flavor-bottom">
+                      <button type="button" class="order-btn"><i class="fas fa-shopping-cart"></i> Order Now</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="flavor-card" data-flavor="Brownie Fudge">
+                  <img src="brownie choco.webp" alt="Brownie Fudge" class="menu_image">
+                  <div class="flavor-info">
+                    <h4 class="flavor-title">Brownie Fudge</h4>
+                    <span class="flavor-badge" style="display:none;">Flavor of the Day!</span>
+                    <p class="flavor-desc">Chocolate ice cream loaded with brownie chunks.</p>
+                    <div class="flavor-bottom">
+                      <button type="button" class="order-btn"><i class="fas fa-shopping-cart"></i> Order Now</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="flavor-card" data-flavor="Nutella">
+                  <img src="nutella.webp" alt="Nutella" class="menu_image">
+                  <div class="flavor-info">
+                    <h4 class="flavor-title">Nutella</h4>
+                    <span class="flavor-badge" style="display:none;">Flavor of the Day!</span>
+                    <p class="flavor-desc">Creamy Nutella ice cream with a hazelnut twist.</p>
+                    <div class="flavor-bottom">
+                      <button type="button" class="order-btn"><i class="fas fa-shopping-cart"></i> Order Now</button>
+                    </div>
+                  </div>
+                </div>
+          </div>
+      </div>
+    </div>
+
+    <!-- User Information Modal -->
+    <div id="user-info-modal" class="modal" style="display:none;">
+      <div class="modal-content">
+        <span class="close" id="close-user-info">&times;</span>
+        <h2>Your Information</h2>
+        <form id="user-info-form">
+          <label for="user-name">Name:</label><br>
+          <input type="text" id="user-name" name="user-name" required style="width:90%;padding:8px;margin-bottom:12px;border-radius:6px;border:1px solid #ccc;"><br>
+          <label for="user-email">Email:</label><br>
+          <input type="email" id="user-email" name="user-email" required style="width:90%;padding:8px;margin-bottom:18px;border-radius:6px;border:1px solid #ccc;"><br>
+          <button type="submit" style="background:#f39c12;color:#fff;padding:10px 24px;border:none;border-radius:8px;font-size:1rem;font-weight:bold;cursor:pointer;">Save & Continue</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+      <div class="footer container">
+        <div class="footer_logo">
+          <img src="logo.jpg" alt="logo" />
+        </div>
+        <div class="footer_links">
+          <h3>Main Links</h3>
+          <ul>
+            <li>Home</li>
+            <li>Menu</li>
+            <li>Order Now</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+        <div class="footer_social">
+          <h3>Follow Us</h3>
+          <div class="social_icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-youtube"></i>
+          </div>
+        </div>
+      </div>
+      <div class="footer_copy">
+        <p>&copy; 2025 Restaurant Name. All Rights Reserved.</p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+    <script>
+// Flavor of the Day/Week logic
+(function() {
+  // List of flavors in order as in HTML
+  const flavors = [
+    "Vanilla", "Chocolate", "Strawberry", "Butterscotch",
+    "Mango", "Tender Coconut", "Guava", "Lychee",
+    "Dark Chocolate", "Belgium Chocolate", "Brownie Fudge", "Nutella"
+  ];
+  // Change to 'day' or 'week' as needed
+  const mode = 'day';
+  const now = new Date();
+  let idx;
+  if (mode === 'day') {
+    // Rotate daily
+    idx = now.getDate() % flavors.length;
+  } else {
+    // Rotate weekly
+    const firstJan = new Date(now.getFullYear(), 0, 1);
+    const weekNum = Math.ceil((((now - firstJan) / 86400000) + firstJan.getDay() + 1) / 7);
+    idx = weekNum % flavors.length;
+  }
+  const flavorOfTheDay = flavors[idx];
+  document.querySelectorAll('.flavor-card').forEach(card => {
+    if (card.dataset.flavor === flavorOfTheDay) {
+      const badge = card.querySelector('.flavor-badge');
+      if (badge) {
+        badge.style.display = 'inline-block';
+        badge.classList.add('flavor-badge-animate');
+        badge.textContent = mode === 'day' ? 'Flavor of the Day!' : 'Flavor of the Week!';
+      }
+      card.classList.add('flavor-highlight');
+    }
+  });
+})();
+    </script>
+  </body>
+</html>
